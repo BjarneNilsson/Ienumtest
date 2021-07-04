@@ -15,8 +15,8 @@ namespace Ienumtest
             {
                 Console.WriteLine(p.Name);
             }
+            //aa
             
-            Console.WriteLine("Hello World!");
         }
     }
 }
