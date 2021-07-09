@@ -6,16 +6,15 @@ namespace Ienumtest
     {
         static void Main()
         {
-            PersonList P = new()
-            {
-                "Bjarne",
-                "Elly"
-            };
+            PersonList P = new();
+            
+            P.Add("yo", 1980);
+            P.Add("test",2005);
+            //P.SetName(1,"Tester");
             foreach (Person p in P)
             {
-                Console.WriteLine(p.Name);
+                Console.WriteLine("{0} was born in {1}",p.Name,p.YearOfBirth);
             }
-            //aa
             
         }
     }
